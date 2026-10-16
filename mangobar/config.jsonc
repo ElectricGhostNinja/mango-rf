@@ -41,7 +41,7 @@
     "window": {
         "format": "{}",
         "on-click": "bash ~/.config/mango/scripts/screenshot.sh",
-        "on-click-right": "python /home/wrq/tool/ocr.py"
+        "on-click-right": "python3 ~/.config/mango/scripts/ocr.py"
     },
     "network": {
         "format": "󰈀 {ifname}",
@@ -127,6 +127,6 @@
     "custom/clock": {
         "exec": "date | cut -d ' ' -f 1",
         "interval": 5,
-        "signal": 8,
+        "signal": 8
     }
 }
